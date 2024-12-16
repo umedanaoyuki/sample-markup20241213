@@ -1,0 +1,65 @@
+.text-container {
+    display: flex;
+    justify-content: center;
+}
+ 
+.ad-container {
+    display: flex;
+    justify-content: center;
+}
+
+.ad-area {
+    background-color: beige;
+    width: 1024px;
+    height: 500px;
+}
+
+.detail-description-container {
+    display: flex;
+    justify-content: center;
+}
+
+.detail-button {
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.choice {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.option-service-list {
+    display: grid;
+    /* justify-content: center; */
+    padding-left: 0px;
+    list-style: none;
+    width: 100%;
+}
+
+@media screen and (min-width: 500px) {
+    .option-service-list {
+        grid-template-columns: repeat(2, 150px);
+        grid-template-rows: repeat(2, 50px);
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+.grid-list-title {
+    display: flex;
+    justify-content: center;
+    grid-column: 1 / -1;
+}
+
+.option-list {
+    background-color: aquamarine;
+    max-width: 800px;
+}
+
+.option-list-container {
+    display: flex;
+    justify-content: center;
+}

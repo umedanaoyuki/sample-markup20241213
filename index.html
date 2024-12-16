@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="description-one" class="text-container">
+        <p>テスト記述（１）</p>
+    </div>
+    <div id="description-two" class="text-container">
+        <p>テスト記述（２）</p>
+    </div>
+    <div id="description-three" class="text-container">
+        <p>テスト記述（３）</p>
+    </div>
+    <div id="description-four" class="text-container">
+        <p>テスト記述（４）</p>
+    </div>
+    <div id="description-five" class="text-container">
+        <p>テスト記述（５）</p>
+    </div>
+    <div id="description-six" class="text-container">
+        <p>テスト記述（６）</p>
+    </div>
+    <div id="description-seven" class="text-container">
+        <p>テスト記述（７）</p>
+    </div>
+    <div id="description-eight" class="text-container">
+        <p>テスト記述（８）</p>
+    </div>
+    <div id="description-nine" class="text-container">
+        <p>テスト記述（９）</p>
+    </div>
+    <div id="description-ten" class="text-container">
+        <p>テスト記述（１０）</p>
+    </div>
+    <div id="description-eleven" class="text-container">
+        <p>テスト記述（１１）</p>
+    </div>
+    <div id="description-twelve" class="text-container">
+        <p>テスト記述（１２）</p>
+    </div>
+    <div id="description-thirteenth" class="text-container">
+        <p>テスト記述（１３）</p>
+    </div>
+    <div id="description-fourteenth" class="text-container">
+        <p>テスト記述（１４）</p>
+    </div>
+    <div id="description-fifteenth" class="text-container">
+        <p>テスト記述（１５）</p>
+    </div>
+    <div class="ad-container">
+        <div class="ad-area">
+
+            <div class="detail-description-container">
+                <p>テストテストテスト<span id="scrollToTop" class="choice">選択</span>テストテスト</p>
+            </div>
+
+            <div class="option-list-container">
+                <div class="option-list">
+                    <p class="grid-list-title">オプション一覧</p>
+                    <ul class="option-service-list" >
+                        <li>オプション１</li>
+                        <li>オプション２</li>
+                        <li>オプション３</li>
+                        <li>オプション４</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('scrollToTop').addEventListener('click', function () {
+            const targetDiv = document.getElementById('description-one');
+            targetDiv.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            })
+        })
+    </script>
+</body>
+</html>
